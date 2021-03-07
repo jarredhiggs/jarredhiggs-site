@@ -1,0 +1,9 @@
+{
+  "short_name": "Jarred Higgs",
+  "name": "Jarred Higgs",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
