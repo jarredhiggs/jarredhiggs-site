@@ -66,7 +66,7 @@ function Resume() {
                         ]}
                     />
                 </div>
-                <div className="resume-column">
+                <div className="resume-column" id="resume-col2">
                     <h2> Education </h2>
                     <h3> University of Virginia </h3>
                     <div className="date">2012 - 2015</div>

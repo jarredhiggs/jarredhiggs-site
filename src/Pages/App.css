@@ -73,22 +73,32 @@ a {
     text-align: left;
     border-style: solid;
     padding: 25px;
-    border-width: 2px;
+    border-width: 3px;
     margin-top: -50px;
+    background-color: ;
 }
 
-.resume-column {
-    /* border: 2px black solid; */
+.resumeDate {
+    text-decoration: underline;
+}
+.resumeCompany {
+    padding-top: 30px;
+    font-size: 15pt;
+    color: #a4b7c9;
+}
+
+.resumeTitle {
+    font-weight: bold;
 }
 
 .resume-row {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     gap: 80px;
 }
 
-.resume-column
+.resume-row > div {
+    margin-top: 0px;
+}
 
 h2 {
     text-align: center;
