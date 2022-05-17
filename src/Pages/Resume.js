@@ -6,8 +6,8 @@ function Resume() {
         <div id="Resume">
             <h1 style={{ "text-align": "center", "margin-bottom": "15px" }}>Resume</h1>
             <div className="resume-row">
-                <div className="resume-column">
-                    <h2>Employment Experience</h2>
+                <div className="resume-column" id="resume-col1">
+                    <h2>Employment</h2>
                     <ResumeWorkItem
                         name="Walmart (Motion Recruitment)"
                         title="Backend Engineer"
