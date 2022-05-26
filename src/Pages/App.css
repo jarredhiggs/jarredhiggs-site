@@ -65,7 +65,6 @@ a {
 }
 
 #navbarItems a:visited {
-    /* color: whitesmoke; */
     color: #b4c7d9;
 }
 
@@ -74,6 +73,22 @@ a {
     border-style: solid;
     padding: 25px;
     border-width: 3px;
+}
+
+#Resume h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+#Resume h2 {
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+    border-bottom: 2px solid whitesmoke;
+}
+
+#Resume h3 {
+    margin: 5px 0px 5px 0px;
 }
 
 .resumeDate {
@@ -96,12 +111,6 @@ a {
     gap: 80px;
 }
 
-@media screen and (max-width: 1200px) {
-    .resume-row {
-        flex-wrap: wrap;
-    }
-}
-
 #resume-col1 {
     flex-shrink: 1;
     flex-grow: 0;
@@ -114,12 +123,8 @@ a {
     flex-shrink: 0;
 }
 
-h2 {
-    text-align: center;
-    margin: 5px 0px 5px 0px;
-    border-bottom: 2px solid whitesmoke;
-}
-
-h3 {
-    margin: 5px 0px 5px 0px;
+@media screen and (max-width: 1200px) {
+    .resume-row {
+        flex-wrap: wrap;
+    }
 }

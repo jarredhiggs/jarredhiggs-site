@@ -4,14 +4,14 @@ import ResumeWorkItem from "../MainComponents/ResumeWorkItem"
 function Resume() {
     return (
         <div id="Resume">
-            <h1 style={{ "text-align": "center", "margin-bottom": "15px" }}>Resume</h1>
+            <h1>Resume</h1>
             <div className="resume-row">
                 <div className="resume-column" id="resume-col1">
                     <h2>Employment</h2>
                     <ResumeWorkItem
                         name="Walmart (Motion Recruitment)"
                         title="Backend Engineer"
-                        date="January 2022 - July 2022 (Planned)"
+                        date="January 2022 - Present"
                         description={[
                             "Developed high traffic APIs (10,000+ TPS) for global payment processing",
                             "Rearchitected orchestration framework to enable high throughput with minimal latency and minimal resource consumption (and to substantially improve code readability and maintainability)",
@@ -104,9 +104,16 @@ function Resume() {
                             <li>OpenShift</li>
                             <li>Kubernetes</li>
                         </ul></li>
-                        <li>Acceptance Testing <ul>
-                            <li>Gherkin</li>
-                            <li>Cucumber</li>
+                        <li>Testing<ul>
+                            <li>Acceptance<ul>
+                                <li>Gherkin</li>
+                            </ul></li>
+                            <li>Unit<ul>
+                                <li>JUnit</li>
+                            </ul></li>
+                            <li>Performance<ul>
+                                <li>JMeter</li>
+                            </ul></li>
                         </ul></li>
                         <li>Database<ul>
                             <li>PostgreSQL</li>
@@ -120,6 +127,7 @@ function Resume() {
                         </ul></li>
                         <li>Monitoring<ul>
                             <li>Splunk</li>
+                            <li>Prometheus</li>
                             <li>CloudWatch</li>
                         </ul></li>
                     </ul>
