@@ -9,8 +9,7 @@ const Home = (props) => {
             On occasion, I'm an <strong>iOS Application Developer</strong>.<br/><br/>
         </p>
         <p>
-            If you want to know more,<br/>
-            that "Resume" button up there can make all your dreams come true.
+        Gonna add some more content here.
         </p><br/>
         <p>
         </p>
