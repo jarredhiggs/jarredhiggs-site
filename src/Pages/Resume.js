@@ -9,7 +9,7 @@ function Resume() {
                 <div className="resume-column" id="resume-col1">
                     <h2>Employment</h2>
                     <ResumeWorkItem
-                        name="Walmart (Motion Recruitment)"
+                        name="Walmart Labs (Motion Recruitment)"
                         title="Backend Engineer"
                         date="January 2022 - Present"
                         description={[
@@ -24,8 +24,8 @@ function Resume() {
                         date="February 2021 - July 2021"
                         description={[
                             "Developed functionality for Fannie Mae's automated loan underwriting system",
-                            "Migrated applications from on-premesis servers to cloud infrastructure (AWS)",
-                            "Integrating monitoring/logging systems for auditing and incident resolution",
+                            "Migrated applications from on-premises servers to cloud infrastructure (AWS)",
+                            "Integrated monitoring/logging systems for auditing and incident resolution",
                             "Rearchitected cloud infrastructure for various applications to adhere to evolving business standards and requirements"
                         ]}
                     />
@@ -60,7 +60,7 @@ function Resume() {
                         description={[
                             "Developed Spring Boot APIs",
                             "Developed an Orchestration API to integrate our APIs with an upstream decision engine",
-                            "Replaced on-premesis batch processes (6 month intervals) with real-time processes hosted on AWS architecture",
+                            "Replaced on-premises batch processes (6 month intervals) with real-time processes hosted on AWS architecture",
                             "Designed and implemented deployment automation strategies to optimize scalability and resiliency while minimizing operational costs",
                             "Created acceptance testing utility for product owners to automatically generate tests from Excel data, eliminating involvement of developers in testing"
                         ]}
