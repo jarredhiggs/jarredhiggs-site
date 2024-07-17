@@ -2,7 +2,7 @@ import React from "react"
 
 const Chess = (props) => {
     return(
-        <div>Chess!</div>
+        <div>____</div>
     )
 }
 

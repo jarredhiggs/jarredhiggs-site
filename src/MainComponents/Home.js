@@ -4,12 +4,9 @@ const Home = (props) => {
     return (
         <div style={{ whiteSpace: "pre-line" }}>
         <p>
-            Sometimes, I'm a <strong>Full Stack Developer</strong>.<br/><br/>
-            I'm also a <strong>Cloud Solutions Architect</strong> every once in a while.<br/><br/>
-            On occasion, I'm an <strong>iOS Application Developer</strong>.<br/><br/>
-        </p>
-        <p>
-        Gonna add some more content here.
+            <strong>Full Stack Developer</strong><br/><br/>
+            <strong>Cloud Solutions Architect</strong><br /><br/>
+            <strong>iOS Application Developer</strong><br/><br/>
         </p><br/>
         <p>
         </p>
