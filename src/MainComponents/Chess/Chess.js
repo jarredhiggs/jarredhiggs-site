@@ -1,8 +1,12 @@
 import React from "react"
 
 const Chess = (props) => {
-    return(
-        <div>Chess!</div>
+    return (
+        <div>
+            <a href="https://github.com/jarredhiggs/ReactChess"
+                target="_blank"
+                rel="noreferrer noopener">Chess</a>
+        </div>
     )
 }
 

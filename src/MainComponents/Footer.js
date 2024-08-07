@@ -4,7 +4,7 @@ function Footer() {
     return (
         <div className="Footer">
             <div id="email">[MyDomainName] @ gmail</div>
-            © 2022 Jarred Higgs
+            © 2023 Jarred Higgs
         </div>
     )
 }
