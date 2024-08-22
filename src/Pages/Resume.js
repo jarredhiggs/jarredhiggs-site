@@ -8,10 +8,19 @@ function Resume() {
             <div className="resume-row">
                 <div className="resume-column" id="resume-col1">
                     <h2>Employment</h2>
+	            <ResumeWorkItem
+	    		name="NormalRabbit, LLC"
+	    		title="Freelance Developer"
+	    		date="December 2022 - Present"
+	    		description={[
+			    "DataAnnotation: Contributing to programming projects targeting expertise in Java, Python, C, C++, Swift",
+			    "Personal: Creating React components and modular vanilla HTML/JS widgets for static websites",
+			]}
+	    	    />
                     <ResumeWorkItem
                         name="Walmart Labs (Motion Recruitment)"
                         title="Backend Engineer"
-                        date="January 2022 - Present"
+                        date="January 2022 - December 2022"
                         description={[
                             "Developed high traffic APIs (10,000+ TPS) for global payment processing",
                             "Rearchitected orchestration framework to enable high throughput with minimal latency and minimal resource consumption (and to substantially improve code readability and maintainability)",
