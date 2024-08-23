@@ -7,6 +7,3 @@ This site is still a work in progress.
 ----
 
 ### `npm start`
-
-Runs the app in the development mode.
-Default port: 3000
